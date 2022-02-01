@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* the part of global class */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.global-h-l{
+    
+}
+.global-p{}
+.btn{
+    width: 200px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* the part of header> */
+header{
+    background-image: url(../img/Vibo---Bckground.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    float: left;
+    color: #fff;
+    z-index: 0;
+    margin-bottom: -400px;
+}
+/* the part of main header, */
+.logo-part{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 12px;
+}
+.menu-part ul{
+    margin-top: 20px;
+}
+.menu-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    text-align: end;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+/* hero part, */
+.Hero-part{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 75px;
+}
+.Hero-part h1{
+    font-size: 35px;
+    line-height: 1.5rem;
+}
+.Hero-part p{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.headers-btn{}
+.headers-btn.btn{}
+.btn-dark{
+    margin-right: 25px;
+}
+.btn-light{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 25px;
+}
+.mobile{
+    margin: 50px;
+}
+
+/* About section, */
+#about{
+    background: url(../img/white-background.gif) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    backface-visibility: hidden;
+    z-index: 1;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+.about-box{
+    width: 33.33%;
+    float: left;
+}
+.about-box-detail{
+    width: 98%;
+    float: left;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 0px 0px 4px;
+    margin: 10px 1%;
+}
+.A{
+    position: relative;
+    top: -100px;
+    right: 40px;
+}
+.B{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+}
+.C{
+    position: relative;
+    left: 20px;
+}
+.D{
+    position: relative;
+    top: 70px;
+    right: 20px;
+}
+/* the part of download, */
+#download{
+    background: #fff;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    margin: 100px 0px 150px 0px;
+}
+.download-box{
+    width: 50%;
+    float: left;
+}
+.download-box-details{
+    text-align: right;
+}
+.download-box-details h1{
+    position: relative;
+    top: 60px;
+    right: 30px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgb(47, 0, 255);
+}
+.download-box-details p{
+    position: relative;
+    top: 100px;
+    right: 30px;
+    display: inline-block;
+    font-size: 16px;
+}
+.btnsa{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    right: 40px;
+}
+.btnsa button{
+    background: aqua;
+    border-radius: 34px;
+}
+.btns{
+    width: 200px;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.download-box{
+    width: 50%;
+    float: left;
+}
+.one{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    left: 70px;
+}
+.icon-one{
+    position: relative;
+    bottom: 15px;
+}
+.icon-two{
+    position: relative;
+    bottom: 40px;
+}
+.icon-three{
+    position: relative;
+    bottom: 15px;
+}
+.icon-four{
+    position: relative;
+    bottom: 15px;
+}
+.download-box-details-list{
+    float: left;
+    padding: 23px;
+    box-shadow: 1px 3px 5px gray;
+}
+.download-box-details-list h3{
+    text-align: left;
+    font-size: 20px;
+    display: inherit;
+    font-weight: 600;
+}
+.h-one{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.two{
+    height: 110px;
+    width: 500px;
+    background: aqua;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+.h-two{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.download-p{
+    position: relative;
+    left: 13px;
+}
+.three{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.h-three{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.four{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+.h-four{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+/* the part of item section, */
+#item{
+    background: white;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    margin: 100px 0px 150px 0px;
+}
+.item-box{
+    width: 50%;
+    float: left;
+}
+.item-box{
+    width: 50%;
+    float: left;
+}
+.item-box h2{
+    color: rgb(27, 8, 134);
+}
+.android p{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+.aimg{
+    position: relative;
+    bottom: 15px;
+}
+.iphone p{
+    position: relative;
+    left: 20px;
+}
+.ipimg{
+    position: relative;
+    bottom: 16px;
+}
+/* the part of store section, */
+#store{
+    background-image: url(../img/Vibo---Bckground.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    float: left;
+    color: white;
+}
+.store-box{
+    width: 50%;
+    float: left;
+}
+.store-box{
+    width: 50%;
+    float: left;
+}
+.store-box h1{
+    color: black;
+    margin: 25px;
+}
+.store-box p{
+    margin: 25px;
+}
+.playstor{
+    width: 50%;
+    margin-top: 80px;
+    position: relative;
+    left: 180px;
+    top: 52px;
+}
+.applestor{
+    width: 50%;
+}
+/* the part of count */
+#count{
+    background: rgb(248, 246, 242);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+.count-box{
+    width: 100%;
+    float: left;
+}
+.count-box-list{
+    width: 25%;
+    float: left;
+}
+.form{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 70px;
+}
+.form p{
+    padding: 15px;
+}
+.count-box-form{
+    display: inline-block;
+    position: relative;
+    top: ;
+    right: -4px;
+}
+.count-box-form input{
+    height: 50px;
+    color: rgb(182, 170, 170);
+    font-size: 16px;
+    width: 500px;
+    border: 1;
+}
+.cbtn{
+    display: inline-block;
+    position: relative;
+    top: ;
+    right: ;
+}
+.cbtn button{
+    background: #33D2Fd;
+}
+.btnsal{
+    width: 188px;
+    padding: 17px;
+    border: none;
+    color: #000;
+    font-weight: 700;
+}
+#finish{
+    width: 100%;
+    float: left;
+    background: #233148;
+    padding: 30px 0px;
+    color: #fff;
+}
+.finish-box{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.finish-box p{
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.icon{
+    width: 50%;
+    float: left;
+}
+.icon ul{
+    margin-top: 10px;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0px 40px;
+    text-align: end;
+}
+.icon ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
